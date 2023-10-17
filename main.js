@@ -10,3 +10,10 @@ document.querySelector(".tecla_pom").onclick=tocaSomPom;
 const listaDeTeclas = document.querySelectorAll(".tecla");
 //incocando a função tocaSomPom a partir do item '0'  , 1° botão
 listaDeTeclas[0].onclick = tocaSomPom;
+
+
+//criando referência variável 'contador' iniciando = 0
+let contador =0;
+while(){
+//estrutura de repetiçao 'while' significa
+}
