@@ -1,5 +1,5 @@
 //criando/declarando a função tocaSomPom
-function tocaSomPom(){
+function tocaSom(){
     document.querySelector("#som_tecla_pom").play();
 }
 //chamando/invocando a função tocaSomPom pelo clique do botão pom
@@ -16,7 +16,7 @@ listaDeTeclas[0].onclick = tocaSomPom;
 let contador =0;
 
 //estrutura de repetiçao 'while' significa"enquanto algo acontecer"
-while(contador < 9){
+while(contador < listaDeTeclas){
 listaDeTeclas[contador].onclick = tocaSomPom;
 contador = contador +1;
 console.log(contador);
