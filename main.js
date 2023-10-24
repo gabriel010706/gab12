@@ -7,7 +7,7 @@ function tocaSom(idElementoAudio){
 let contador =0;
 
 //estrutura de repetiçao 'while' significa"enquanto algo acontecer"
-while(contador < listaDeTeclas){
+while(contador < listaDeTeclas.length){
     const efeito = listaDeTeclas[contador].classList[1]
     const idAudio ="#som_"+ efeito;
 listaDeTeclas[contador].onclick = function(){
