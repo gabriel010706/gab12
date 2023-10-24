@@ -1,9 +1,8 @@
 //criando/declarando a função tocaSomPom com parÂmetro idElementoAudio
-function tocaSom(iElemento idElementoAudio){
-    document.querySelector("idElemento idElementoAudio").play();
+function tocaSom(idElementoAudio){
+    document.querySelector(idElementoAudio).play();
 }
-//chamando/invocando a função tocaSomPom pelo clique do botão pom
-document.querySelector(".tecla_pom").onclick=tocaSomPom; 
+
 //criando referência variável 'contador' iniciando = 0
 let contador =0;
 
