@@ -10,7 +10,7 @@ const listaDeTeclas = document.querySelectorAll('.tecla');
 for(let contador =0;contador <listaDeTeclas.length;contador++){
     const tecla = listaDeTeclas[contador];
     const efeito = tecla.classList[1]; //acessa o 2º item da class de teclas
-    const idAudio =`#som_$som_{efeito}`;//template string
+    const idAudio =`#som_${efeito}`;//template string
     tecla.onclick = function(){ // cria função anõnima para chamar toca som
     tocaSom(idAudio);
 }
